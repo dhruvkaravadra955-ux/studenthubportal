@@ -1,0 +1,31 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+    color: black;
+    margin: 30px;
+    min-height: 1200px;
+}
+
+h3 {
+    background-color: navy;
+    width: 130px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-size: 16px;
+}
+
+img {
+    width: 95%;
+    height: 300px;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+p {
+    background-color: darkslategray;
+    border: 1px solid white;
+    padding: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+}

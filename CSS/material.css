@@ -1,0 +1,38 @@
+body {
+    background-color: ivory;
+    font-family: Arial;
+}
+
+h3 {
+    background-color: navy;
+    color: white;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.topics {
+    background-color: darkslategray;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.links {
+    background-color: darkslategray;
+    width: 400px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.links p {
+    background-color: ivory;
+    padding: 12px;
+}
+
+a {
+    color: navy;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: ivory;
+    font-family: Arial;
+}
+
+h3 {
+    background-color: navy;
+    color: white;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: darkslategray;
+    color: white;
+}
+
+th {
+    background-color: navy;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+}

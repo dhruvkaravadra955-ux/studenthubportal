@@ -1,0 +1,49 @@
+body {
+    background-color: lightyellow;
+    color: black;
+    font-family: Arial;
+}
+
+.events {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: navy;
+    padding: 15px;
+    width: 150px;
+    margin: auto;
+}
+
+.about {
+    background-color: navy;
+    border: 1px solid white;
+    width: 300px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.event {
+    background-color: darkslategray;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.event img {
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.event h2 {
+    margin: 5px 0;
+}
+
+.event p {
+    margin: 5px 0;
+}
