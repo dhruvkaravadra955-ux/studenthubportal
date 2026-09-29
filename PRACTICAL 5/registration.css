@@ -1,0 +1,67 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+}
+
+.form {
+    width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#nameError,
+#emailError,
+#mobileError,
+#passwordError,
+#confirmError,
+#courseError,
+#yearError,
+#genderError,
+#termsError {
+    color: red;
+    font-size: 14px;
+}
+
+#strength {
+    font-size: 14px;
+}
+
+#register {
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+
+#success {
+    color: green;
+    font-size: 18px;
+}

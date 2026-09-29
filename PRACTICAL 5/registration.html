@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+
+    <div class="form">
+
+        <h1>Student Registration</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <p id="nameError"></p>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <p id="emailError"></p>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile">
+        <p id="mobileError"></p>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <p id="passwordError"></p>
+
+        <p id="strength"></p>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword">
+        <p id="confirmError"></p>
+
+        <label for="course">Course:</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BTech">B.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="MTech">M.Tech</option>
+        </select>
+        <p id="courseError"></p>
+
+        <label for="year">Year:</label>
+        <select id="year">
+            <option value="">Select Year</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select>
+        <p id="yearError"></p>
+
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+
+        <p id="genderError"></p>
+
+        <label>
+            <input type="checkbox" id="terms">
+            I accept the terms and conditions
+        </label>
+
+        <p id="termsError"></p>
+
+        <button id="register">Register</button>
+
+        <p id="success"></p>
+
+    </div>
+
+    <script src="registration.js"></script>
+
+</body>
+
+</html>
