@@ -1,0 +1,39 @@
+body {
+    background-color: ivory;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: darkslategray;
+    color: white;
+}
+
+th {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+tr:nth-child(even) {
+    background-color: slategray;
+}
+
+td[rowspan] {
+    background-color: lightsteelblue;
+    color: black;
+    font-weight: bold;
+}

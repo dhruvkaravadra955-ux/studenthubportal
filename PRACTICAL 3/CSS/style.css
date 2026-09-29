@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+
+main {
+    padding: 50px;
+}
+
+
+
+.club-container {
+    display: flex;
+    justify-content: center;
+}
+
+.club-card {
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.club-card:hover {
+    background-color: lightblue;
+}
+
+
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.contact {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}

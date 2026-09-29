@@ -1,0 +1,33 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial;
+    color: black;
+    margin: 30px;
+}
+
+h2 {
+    background-color: navy;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.box {
+    background-color: darkslategray;
+    border: 1px solid white;
+    width: 85%;
+    margin: 50px auto 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.info {
+    background-color: darkslategray;
+    border: 1px solid white;
+    width: 60%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}

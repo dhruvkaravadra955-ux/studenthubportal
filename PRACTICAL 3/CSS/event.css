@@ -1,0 +1,50 @@
+
+body {
+    background-color: #ffffe6;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+select {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#events {
+    margin-top: 20px;
+}
+
+.event-card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+.event-card h2 {
+    color: black;
+}
+
+#error {
+    color: red;
+}
+
+#loading {
+    color: orange;
+}
