@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background: lightyellow;
+}
+
+.form {
+    width: 400px;
+    margin: 60px auto;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 20px;
+}
+
+#message {
+    color: green;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 40%;
+    background: white;
+    padding: 25px;
+    border: 1px solid black;
+}
