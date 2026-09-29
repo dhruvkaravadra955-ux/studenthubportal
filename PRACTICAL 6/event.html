@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Events</h1>
+
+    <label>Search:</label>
+    <input type="text" id="search" placeholder="Search event">
+
+    <label>Category:</label>
+    <select id="category">
+      <option value="all">All Categories</option>
+      <option value="Technical">Technical</option>
+      <option value="Sports">Sports</option>
+      <option value="Cultural">Cultural</option>
+      <option value="Workshop">Workshop</option>
+      <option value="Seminar">Seminar</option>
+    </select>
+
+    <label>Sort By:</label>
+    <select id="sort">
+      <option value="date">Date</option>
+      <option value="az">Title A to Z</option>
+      <option value="za">Title Z to A</option>
+    </select>
+
+    <p id="message"></p>
+    <div id="eventList"></div>
+    <div id="pagination"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

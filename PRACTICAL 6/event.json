@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Hackathon 2026",
+    "category": "Technical",
+    "date": "2026-10-12",
+    "venue": "Computer Lab 1",
+    "description": "24-hour coding challenge to build a working web app."
+  },
+  {
+    "id": 2,
+    "title": "Annual Sports Day",
+    "category": "Sports",
+    "date": "2026-10-18",
+    "venue": "College Ground",
+    "description": "Track and field events, relay races and team games."
+  },
+  {
+    "id": 3,
+    "title": "Cultural Fest",
+    "category": "Cultural",
+    "date": "2026-11-05",
+    "venue": "Main Auditorium",
+    "description": "Dance, music and drama performances by students."
+  },
+  {
+    "id": 4,
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-10-20",
+    "venue": "Seminar Hall",
+    "description": "Hands-on session on HTML, CSS and JavaScript basics."
+  },
+  {
+    "id": 5,
+    "title": "AI and Future Careers",
+    "category": "Seminar",
+    "date": "2026-11-10",
+    "venue": "Conference Room",
+    "description": "Guest lecture on artificial intelligence and job trends."
+  },
+  {
+    "id": 6,
+    "title": "Inter-College Cricket",
+    "category": "Sports",
+    "date": "2026-11-15",
+    "venue": "College Ground",
+    "description": "Knockout cricket tournament between nearby colleges."
+  },
+  {
+    "id": 7,
+    "title": "Poster Making Contest",
+    "category": "Cultural",
+    "date": "2026-10-25",
+    "venue": "Art Room",
+    "description": "Create posters on the theme of digital India."
+  },
+  {
+    "id": 8,
+    "title": "Python Bootcamp",
+    "category": "Workshop",
+    "date": "2026-11-02",
+    "venue": "Computer Lab 2",
+    "description": "Two-day beginner bootcamp covering Python fundamentals."
+  },
+  {
+    "id": 9,
+    "title": "Cyber Security Awareness",
+    "category": "Seminar",
+    "date": "2026-12-01",
+    "venue": "Main Auditorium",
+    "description": "Learn how to stay safe online and protect your data."
+  },
+  {
+    "id": 10,
+    "title": "Code Debugging Contest",
+    "category": "Technical",
+    "date": "2026-11-20",
+    "venue": "Computer Lab 3",
+    "description": "Find and fix bugs in given programs within the time limit."
+  },
+  {
+    "id": 11,
+    "title": "Photography Exhibition",
+    "category": "Cultural",
+    "date": "2026-12-08",
+    "venue": "Gallery Hall",
+    "description": "Display of the best campus photographs taken by students."
+  },
+  {
+    "id": 12,
+    "title": "Badminton Championship",
+    "category": "Sports",
+    "date": "2026-12-12",
+    "venue": "Indoor Stadium",
+    "description": "Singles and doubles badminton matches for all years."
+  },
+  {
+    "id": 13,
+    "title": "Resume Building Workshop",
+    "category": "Workshop",
+    "date": "2026-11-28",
+    "venue": "Seminar Hall",
+    "description": "Tips to create a strong resume and prepare for interviews."
+  },
+  {
+    "id": 14,
+    "title": "Tech Quiz",
+    "category": "Technical",
+    "date": "2026-12-15",
+    "venue": "Room 204",
+    "description": "Team quiz on computer science, gadgets and current tech news."
+  },
+  {
+    "id": 15,
+    "title": "Startup and Innovation Talk",
+    "category": "Seminar",
+    "date": "2026-12-20",
+    "venue": "Conference Room",
+    "description": "Alumni founders share their journey of building a startup."
+  }
+]
