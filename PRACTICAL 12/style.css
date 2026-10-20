@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    color: #222;
+    margin: 0;
+    padding: 24px;
+}
+.container { max-width: 1200px; margin: auto; }
+header { text-align: center; margin-bottom: 22px; }
+h1 { color: #234b70; margin-bottom: 6px; }
+h2 { color: #234b70; margin-top: 0; }
+.panel {
+    background: white;
+    padding: 22px;
+    margin: 18px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000012;
+}
+label { display: block; margin: 12px 0 5px; font-weight: bold; }
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c8d1dc;
+    border-radius: 5px;
+    font: inherit;
+}
+button, .button {
+    display: inline-block;
+    background: #2868a8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font: inherit;
+}
+button:hover, .button:hover { background: #17436f; }
+.secondary { background: #687786; }
+.danger { background: #b83232; padding: 7px 10px; }
+.buttons { margin-top: 16px; display: flex; gap: 10px; }
+.message {
+    background: #d9f2dc;
+    border: 1px solid #a8d8af;
+    color: #205b2a;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+.filters {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto auto;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td {
+    border: 1px solid #d5dbe2;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+th { background: #2868a8; color: white; }
+tr:nth-child(even) { background: #f8fafc; }
+.poster { width: 75px; height: 85px; object-fit: cover; border-radius: 4px; }
+.small-poster { width: 100px; max-height: 130px; object-fit: cover; }
+.actions { min-width: 100px; }
+.actions form { margin-top: 8px; }
+.status { padding: 4px 8px; border-radius: 12px; font-size: 12px; }
+.status.open { background: #d9f2dc; color: #205b2a; }
+.status.closed { background: #f8dddd; color: #8c2222; }
+footer { text-align: center; color: #65717d; padding: 12px; }
+@media (max-width: 750px) {
+    body { padding: 10px; }
+    .panel { padding: 14px; }
+    .filters { grid-template-columns: 1fr; }
+}
